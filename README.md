@@ -1,5 +1,6 @@
 # Interview project for TinyClues MLE Internship
-
+## NOTICE
+Run `Project.py` to get the right directory structure
 ## Introduction
 
 This is the interview project that any applicant to our MLE internship position receives.
