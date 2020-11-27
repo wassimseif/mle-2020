@@ -1,0 +1,3 @@
+from .base_similarity_metric import BaseSimilarityMetric
+from .cosine_similarity_metric import CosineSimilarityMetric
+from .count_base_similarity_metric import CountBasedSimilarity
