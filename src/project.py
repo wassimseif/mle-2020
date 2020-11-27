@@ -20,12 +20,14 @@ class Project:
     data_dir = base_dir / "data"
     log_dir = base_dir / "logs"
     exported_csv_dir = base_dir / 'exported_csv'
+    exported_objects_dir = base_dir / 'exported_objs'
 
     def __post_init__(self) -> None:
         # create the directories if they don't exist
         self.data_dir.mkdir(exist_ok=True)
         self.log_dir.mkdir(exist_ok=True)
         self.exported_csv_dir.mkdir(exist_ok=True)
+        self.exported_objects_dir.mkdir(exist_ok=True)
         pass
 
 
